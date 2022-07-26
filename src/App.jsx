@@ -11,7 +11,7 @@ const App = () => {
   return (
     <>
       <div className={`login-page ${theme} vh-100`}>
-        <div className="container-md container-fluid">
+        <div className="container-md">
           <Header
             lang={lang}
             setLang={setLang}
@@ -22,7 +22,7 @@ const App = () => {
             <Form theme={theme} lang={lang} />
           </Main>
 
-          <Footer/>
+          <Footer theme={theme}/>
         </div>
       </div>
     </>

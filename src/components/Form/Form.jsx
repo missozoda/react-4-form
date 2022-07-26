@@ -29,7 +29,7 @@ const Form = ({ lang, theme }) => {
         className={`${theme === "dark" ? "dark-form" : ""} form card p-3 pb-5 mt-4`}
         onSubmit={collectInfos}
       >
-        <h1 className="text-center text-primary py-3 mb-4">
+        <h1 className="text-center text-primary py-3 mb-3">
           {selectedLanContent.loginText}
         </h1>
         <Input
